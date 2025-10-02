@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <style>
+    * {
+      font-family: Arial, Helvetica, sans-serif;
+    }
+
+    body {
+      background-image: linear-gradient(
+        to right,
+        rgb(72, 181, 201),
+        rgb(218, 25, 218)
+      );
+    }
+    .center-block {
+      background-color: rgba(255, 255, 255, 0.932);
+      width: 25vw;
+      height: 90vh;
+      border-radius: 2%;
+      margin-top: 2%;
+      margin-left: 38%;
+    }
+    #login {
+      text-align: center;
+      font-size: x-large;
+      font-family: Arial, Helvetica, sans-serif;
+      color: rgba(0, 0, 0, 0.781);
+      padding-top: 10%;
+      /* margin: 20%; jab ma margin kr raha tha tou us k mutabik hona chahiye thy*/
+    }
+    #username,
+    #password {
+      margin-left: 10%;
+      display: block;
+      box-sizing: border-box;
+    }
+    #username input,
+    #password input {
+      border: none;
+      outline: none;
+      background-color: transparent;
+      text-box: #000;
+    }
+    #data div {
+      margin-top: 8%;
+      margin-bottom: 3%;
+    }
+    input::placeholder {
+      color: #999;
+    }
+    #forget a {
+      /* text-decoration: none;  */
+      color: #000;
+      text-align: right;
+      display: block;
+      margin-right: 10%;
+      margin-bottom: 0%;
+    }
+    #login-btn a {
+      text-decoration: none;
+      color: white;
+      text-align: center;
+      display: block;
+      background-image: linear-gradient(
+        to right,
+        rgb(117, 163, 223),
+        rgb(218, 25, 218)
+      );
+      padding: 15px 0;
+      margin: 0 50px;
+      border-radius: 30px;
+    }
+    #login-btn a:hover {
+      background-image: linear-gradient(
+        to left,
+        rgb(117, 163, 223),
+        rgb(218, 25, 218)
+      );
+    }
+
+    .txt,
+    #option {
+      text-align: center;
+      color: #000000c4;
+    }
+
+    #forget a:hover,
+    #option a:hover {
+      color: rgba(255, 0, 234, 0.781);
+    }
+
+    #images img {
+      width: 7%;
+      height: 7%;
+      margin-right: 4%;
+    }
+    #space {
+      display: inline;
+      margin-left: 35%;
+    }
+
+    #data #sign-txt {
+      margin-top: 35%;
+    }
+
+    #option a {
+      text-align: center;
+      text-decoration: none;
+      color: #000;
+    }
+
+    #data #option {
+      margin: 0;
+    }
+  </style>
+  <body>
+    <main>
+      <div class="center-block">
+        <form action="">
+          <div id="login"><h1>Login</h1></div>
+          <div id="data">
+            <div id="username">
+              <div>Username</div>
+              <input type="text" placeholder="Type your username" />
+            </div>
+            <div id="password">
+              <div>Password</div>
+              <input type="password" placeholder="Type your password" />
+            </div>
+            <div id="forget" class="hover">
+              <a href="#">Forget password?</a>
+            </div>
+            <div id="login-btn">
+              <a href="#">Login</a>
+            </div>
+            <div id="other-signUp" class="txt">Or Sign Up Using</div>
+            <div id="images">
+              <div id="space"></div>
+              <img src="public/img/google.png" alt="google" />
+              <img src="public/img/facebook.png" alt="two" />
+              <img src="public/img/twitter.png" alt="three" />
+            </div>
+            <div id="sign-txt" class="txt">Or Sign Up Using</div>
+            <div id="option" class="hover">
+              <a href="#">SignUp</a>
+            </div>
+          </div>
+        </form>
+      </div>
+    </main>
+  </body>
+</html>

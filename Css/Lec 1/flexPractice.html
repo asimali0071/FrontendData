@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <style>
+    #container {
+      width: 100vw;
+      height: 100vh;
+      margin: 0;
+      padding: 0;
+    }
+    #flex-box {
+      background-color: burlywood;
+      width: 60%;
+      height: 90%;
+      display: flex;
+      flex-wrap: wrap;
+      align-content: start;
+      align-items: center;
+    }
+    .box {
+      width: 55%;
+      height: 70%;
+      align-items: center;
+      justify-content: center;
+      display: flex;
+      font-size: 2vw;
+      border: solid;
+      margin: 2%;
+    }
+
+    #box1 {
+      background-color: aliceblue;
+    }
+    #box2 {
+      background-color: rgb(65, 32, 156);
+    }
+    #box3 {
+      background-color: rgb(167, 6, 94);
+    }
+    #box4 {
+      background-color: rgb(109, 24, 148);
+    }
+  </style>
+  <body>
+    <div id="container">
+      <div id="flex-box">
+        <div id="box1" class="box">Box 1</div>
+        <div id="box2" class="box">Box 2</div>
+        <div id="box3" class="box">Box 3</div>
+        <div id="box4" class="box">Box 4</div>
+        <div id="box4" class="box">Box 5</div>
+        <div id="box4" class="box">Box 6</div>
+        <div id="box4" class="box">Box 7</div>
+        <div id="box4" class="box">Box 8</div>
+        <div id="box4" class="box">Box 9</div>
+        <div id="box4" class="box">Box 10</div>
+      </div>
+    </div>
+  </body>
+</html>
